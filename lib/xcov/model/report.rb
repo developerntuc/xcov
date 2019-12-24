@@ -40,7 +40,7 @@ module Xcov
     end
 
     def markdown_value
-      "#{@targets.map { |target| target.markdown_value }.join("")}\n> Powered by [xcov](https://github.com/nakiostudio/xcov)"
+      "#{@targets.map { |target| target.markdown_value }.join("")}\n> Powered by [developerntuc/xcov](https://github.com/developerntuc/xcov)"
     end
 
     def json_value
